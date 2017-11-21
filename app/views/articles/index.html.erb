@@ -1,0 +1,22 @@
+<div class="title">
+  <h1>Articles</h1>
+</div>
+
+<div class="wrapper">
+    <% @articles.each do |article| %>
+      <div class="article">
+        <li style="list-style-type:none" class="titre">
+          <%= link_to article.title, article_path(article) %>
+        </li>
+          <div class="content">
+            <li style="list-style-type:none" class="contenu">
+            <%= article.content %>
+            <%= link_to "Delete", article_path(article),
+              method: :delete,
+              data: { confirm: "Are you sure?" } %>
+            </li>
+          </div>
+      </div>
+    <% end %>
+<%= link_to "Create a new article", new_article_path %>
+</div>

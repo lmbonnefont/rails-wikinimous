@@ -1,0 +1,39 @@
+h1 {
+  font-family: 'Barlow Semi Condensed', sans-serif !important;
+}
+
+.title {
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.wrapper {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.article {
+  margin-bottom: 15px;
+  background-color: #e8f0eb;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.article:hover {
+  background-color: #d2dad4;
+  border-radius: 9px;
+}
+
+.content {
+  margin-left: 10px;
+}
+
+.titre {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.contenu {
+  font-size: 18px;
+  font-family: 'Barlow Semi Condensed', sans-serif !important;
+}
